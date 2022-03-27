@@ -1,5 +1,9 @@
 package br.com.estudandoemcasa;
-
+/** 
+ * 
+ * @author miguel.silva
+ *
+ */
 public class Greeting {
 
 	private final long id;
