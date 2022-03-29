@@ -1,4 +1,4 @@
-package br.com.estudandoemcasa;
+package br.com.estudandoemcasa.entity;
 /** 
  * 
  * @author miguel.silva

@@ -23,9 +23,7 @@ public class PersonServices {
         return person;
     }
 
-    public void delete(String id) {
-
-    }
+    public void delete(String id) { }
 
     public Person findById(String id) {
         Person person = new Person();

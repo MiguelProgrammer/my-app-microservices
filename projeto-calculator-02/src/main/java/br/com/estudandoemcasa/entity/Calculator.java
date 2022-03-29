@@ -2,7 +2,7 @@ package br.com.estudandoemcasa.entity;
 
 import java.io.Serializable;
 
-public class Calculator  extends Function implements Serializable {
+public class Calculator extends Function implements Serializable {
 
     private String numberOne;
     private String numberTwo;
@@ -50,7 +50,9 @@ public class Calculator  extends Function implements Serializable {
 
         this.message(numberOne, numberTwo);
         this.numberPositiv(numberOne, numberTwo);
-        System.out.println(this.toString());
+        this.operation = "Sum";
+        Double result = this.convertDouble(numberOne) + this.convertDouble(numberTwo);
+        System.out.println(this.toString(result));
 
         return this.convertDouble(numberOne) + this.convertDouble(numberTwo);
     }
@@ -60,7 +62,8 @@ public class Calculator  extends Function implements Serializable {
         this.message(numberOne, numberTwo);
         this.numberPositiv(numberOne, numberTwo);
         this.operation = "Times";
-        System.out.println(this.toString());
+        Double result = this.convertDouble(numberOne) * this.convertDouble(numberTwo);
+        System.out.println(this.toString(result));
 
         return this.convertDouble(numberOne) * this.convertDouble(numberTwo);
     }
@@ -71,7 +74,8 @@ public class Calculator  extends Function implements Serializable {
         this.numberPositiv(numberOne, numberTwo);
         this.numberOneValid(numberOne, numberTwo);
         this.operation = "Substraction";
-        System.out.println(this.toString());
+        Double result = this.convertDouble(numberOne) - this.convertDouble(numberTwo);
+        System.out.println(this.toString(result));
 
         return this.convertDouble(numberOne) - this.convertDouble(numberTwo);
     }
@@ -82,7 +86,8 @@ public class Calculator  extends Function implements Serializable {
         this.numberPositiv(numberOne, numberTwo);
         this.numberOneValid(numberOne, numberTwo);
         this.operation = "Division";
-        System.out.println(this.toString());
+        Double result = this.convertDouble(numberOne) / this.convertDouble(numberTwo);
+        System.out.println(this.toString(result));
 
         return this.convertDouble(numberOne) / this.convertDouble(numberTwo);
     }
@@ -93,7 +98,9 @@ public class Calculator  extends Function implements Serializable {
         this.numberPositiv(numberOne, numberTwo);
         this.numberOneValid(numberOne, numberTwo);
         this.operation = "Media";
-        System.out.println(this.toString());
+        Double result = (this.convertDouble(numberOne) + this.convertDouble(numberTwo)) / 2;
+
+        System.out.println(this.toString(result, numberOne, numberTwo));
 
         return (this.convertDouble(numberOne) + this.convertDouble(numberTwo)) / 2;
     }
@@ -103,15 +110,25 @@ public class Calculator  extends Function implements Serializable {
         this.message(numberOne, numberTwo);
         this.numberPositiv(numberOne, numberTwo);
         this.operation = "SquareRoot";
-        System.out.println(this.toString());
+        String result = Math.sqrt(this.convertDouble(numberOne)) + " - " + Math.sqrt(this.convertDouble(numberTwo));
+        System.out.println(this.toString(result));
 
-        return Math.sqrt(this.convertDouble(numberOne)) + " - " + Math.sqrt(this.convertDouble(numberTwo));
+        return result;
     }
 
-    @Override
-    public String toString() {
-        return " -- Calculator -- \n" +
-                "Number One = " + this.numberOne + " & Number Two = " + this.numberTwo +
-                "\nOperation: " + this.operation;
+    public String toString(Object result) {
+
+        return " \n-- Calculator -- \n" +
+                "Number One = " + getNumberOne() + " & Number Two = " + getNumberTwo() +
+                "\nOperation: " + this.operation + "\n" +
+                "Result = " + result;
+    }
+
+    public String toString(Object result, String numberOne, String numberTwo) {
+
+        return " \n-- Calculator -- \n" +
+                "Number One = " + numberOne + " & Number Two = " + numberTwo +
+                "\nOperation: " + this.operation + "\n" +
+                "Result = " + result;
     }
 }

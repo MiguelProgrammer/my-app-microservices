@@ -30,9 +30,9 @@ public class Function {
         this.numberTwo = numberTwo;
     }
 
-    public Double convertDouble(String numberOne) {
-        String number = numberOne.replace(",", ".");
-        if (isNumeric(number) && numberOne != null) {
+    public Double convertDouble(String numberAux) {
+        String number = numberAux.replace(",", ".");
+        if (isNumeric(number) && numberAux != null) {
             return Double.parseDouble(number);
         }
         return 1D;

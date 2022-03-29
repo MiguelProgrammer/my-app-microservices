@@ -16,7 +16,6 @@ public class PersonController {
     @Autowired
     private PersonServices personServices;
 
-
     @RequestMapping(value = "/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Person> findAll() {
         return personServices.findAll();
