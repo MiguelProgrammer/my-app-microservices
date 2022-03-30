@@ -9,6 +9,7 @@
 *.jar
 *.war
 *.ear
+config-server/
 
 #Gradle temporary files
 target/
