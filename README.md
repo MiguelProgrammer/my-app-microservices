@@ -6,6 +6,16 @@
 
 <hr>
 
+# Communication between microservices
+## Front - MicroService Cambio 
+<img src="https://i.imgur.com/qYRUOFV.png" width="450" height="200">
+
+## Front - Price Book for BRL
+<img src="https://i.imgur.com/XVcKaiy.png" width="450" height="200">
+
+## Relation Services
+<img src="https://i.imgur.com/Dq4DOkC.png" width="450" height="200">
+
 # Operation Sum
 ## Front
 <img src="https://i.imgur.com/BUMeusO.png" width="450" height="100">
