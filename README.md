@@ -7,10 +7,10 @@
 <hr>
 
 # Communication between microservices
-## Front - MicroService Cambio 
+## Front - Microservice Cambio 
 <img src="https://i.imgur.com/qYRUOFV.png" width="450" height="200">
 
-## Front - Price Book for BRL
+## Front - Microservice Price Book for BRL
 <img src="https://i.imgur.com/XVcKaiy.png" width="450" height="200">
 
 ## Relation Services
