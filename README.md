@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 👨‍🏫 Application - MicroServices ![Profile View Counter](https://komarev.com/ghpvc/?username=MiguelProgrammer)
 <hr>
 
@@ -63,3 +64,16 @@
 
 # FindAll
 <img src="https://i.imgur.com/9q4DvoF.png/..." width="750" height="250">
+=======
+# my-app-microservices
+Studies on Java applications, microservices in the cloud and their benefits, udemy base course.
+
+# Cambio Convert Service
+<img src="https://i.imgur.com/GTTWmAV.png" width="400" height="170">
+
+## Dolar -> Mexican weight
+<img src="https://i.imgur.com/cJJiB6g.png" width="400" height="170">
+
+## Dolar -> Real
+<img src="https://i.imgur.com/7S31ube.png" width="400" height="170">
+>>>>>>> db63fe99393e88739ca4045df328a2a2448be085
