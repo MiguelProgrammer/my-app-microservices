@@ -1,4 +1,0 @@
-# git ignore
-
-
-*.04-mg-config-server/

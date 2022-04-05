@@ -28,8 +28,6 @@ public class CambioController {
 			@PathVariable("from") String from,
 			@PathVariable("to") String to) {
 		
-		System.out.println(amount + " - " + from + " - " + to);
-		
 		var cambio = cambioRepository.findByFromAndTo(from, to);
 		
 		if(cambio == null) {
