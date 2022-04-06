@@ -6,6 +6,23 @@
 
 <hr>
 
+# Load Balancing comunication with microservices
+
+## Front microservice machine 1
+<img src="https://i.imgur.com/gZbigQP.png" width="450" height="200">
+
+## Front microservice machine 2
+<img src="https://i.imgur.com/0Q75sP1.png" width="450" height="200">
+
+## Front microservice machine 3
+<img src="https://i.imgur.com/8vtJcju.png" width="450" height="200">
+
+## Relation Services and load balancer
+<img src="https://i.imgur.com/GFVuIYl.png" width="750" height="400">
+
+# Instances with Eureka
+<img src="https://i.imgur.com/eg7N13H.png" width="750" height="400">
+
 # Instances with Eureka
 <img src="https://i.imgur.com/eg7N13H.png" width="750" height="400">
 
