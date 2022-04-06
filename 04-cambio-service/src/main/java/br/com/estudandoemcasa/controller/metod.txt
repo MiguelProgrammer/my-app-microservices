@@ -1,0 +1,26 @@
+/*@GetMapping(value = "/{id}/{currency}")
+	public Book findBook(@PathVariable("id") Long id, @PathVariable("currency") String currency) {
+		
+		var book = bookRepository.getById(id); 
+		
+		if (book == null) {
+			throw new RuntimeException("Corrency unsuported");
+		}
+		
+		HashMap<String, String> params = new HashMap<>();
+		params.put("amount", book.getPrice().toString());
+		params.put("from", "USD");
+		params.put("to", currency);
+		
+		var response = new RestTemplate().
+			getForEntity("http://localhost:8000/cambio-service/{amount}/{from}/{to}",
+					Cambio.class, params);
+		
+		var cambio = response.getBody();
+		
+		var port = enviroment.getProperty("local.server.port");
+		book.setEnviroment(port);
+		book.setPrice(cambio.getConvertedValue());
+		
+		return book;
+	}/*
