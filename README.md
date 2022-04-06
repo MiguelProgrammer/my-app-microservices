@@ -6,6 +6,9 @@
 
 <hr>
 
+# Instances with Eureka
+<img src="https://i.imgur.com/eg7N13H.png" width="750" height="400">
+
 # Communication between microservices
 ## Front - Microservice Cambio 
 <img src="https://i.imgur.com/qYRUOFV.png" width="450" height="200">
