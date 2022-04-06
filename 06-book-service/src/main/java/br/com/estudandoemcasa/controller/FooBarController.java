@@ -12,16 +12,20 @@ import io.github.resilience4j.retry.annotation.Retry;
 @RestController
 @RequestMapping("/book-service")
 public class FooBarController {
-	
+
 	private Logger logger = LoggerFactory.getLogger(FooBarController.class);
 
 	@GetMapping("/foo-bar")
-	@Retry(name = "foo-bar")
+	@Retry(name = "foo-bar", fallbackMethod = "fallbackMethod")
 	public String fooBar() {
-		
+
 		logger.info("Request to foo-bar is received!");
-		
+
 		var response = new RestTemplate().getForEntity("http://localhost:8080/foo-bar", String.class);
 		return response.getBody();
+	}
+
+	public String fallbackMethod(Exception ex) {
+		return "fallbackMethod foo-bar";
 	}
 }
