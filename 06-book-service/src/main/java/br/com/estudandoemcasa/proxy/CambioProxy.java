@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import br.com.estudandoemcasa.response.Cambio;
 
-@FeignClient(name = "mg-cambio-service", url = "localhost:8000")
+@FeignClient(name = "mg-cambio-service")
 public interface CambioProxy {
 
 	@GetMapping(value = "/cambio-service/{amount}/{from}/{to}")
