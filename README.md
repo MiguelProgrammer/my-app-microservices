@@ -6,7 +6,7 @@
 
 <hr>
 
-# Spring Doc && Swagger on API GATEWAY
+# WebFlux-UI && Swagger on API GATEWAY
 <img src="https://i.imgur.com/HeUWoMT.png" width="550" height="400">
 
 ## Swagger UI - Book Service
