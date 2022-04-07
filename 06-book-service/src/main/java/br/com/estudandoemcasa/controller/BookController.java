@@ -27,7 +27,7 @@ public class BookController {
 	@Autowired
 	private CambioProxy cambioProxy;
 	
-	@Operation(summary = "Find a specific book by your ID")
+	@Operation(description = "Find a specific book by your ID.")
 	@GetMapping(value = "/{id}/{currency}")
 	public Book findBook(@PathVariable("id") Long id, @PathVariable("currency") String currency) {
 		

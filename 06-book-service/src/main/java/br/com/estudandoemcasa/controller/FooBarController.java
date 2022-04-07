@@ -22,7 +22,7 @@ public class FooBarController {
 	//@CircuitBreaker(name = "default", fallbackMethod = "fallbackMethod")
 	//@RateLimiter(name = "default")
 
-	@Operation(summary = "Foo-barS")
+	@Operation(description = "Foo-bar.")
 	@Bulkhead(name = "default")
 	public String fooBar() {
 
