@@ -6,6 +6,17 @@
 
 <hr>
 
+# Spring Doc
+
+## Swagger UI - Book Service
+<img src="https://i.imgur.com/4KHBWwS.png" width="550" height="1500">
+
+## Api Docs - Book Service
+<img src="https://i.imgur.com/RdDkZ3y.png" width="950" height="1800">
+
+## Front microservice machine 1
+<img src="https://i.imgur.com/gZbigQP.png" width="450" height="200">
+
 # Load Balancing comunication with microservices
 
 ## Front microservice machine 1
