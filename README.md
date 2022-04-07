@@ -6,7 +6,8 @@
 
 <hr>
 
-# Spring Doc
+# Spring Doc && Swagger on API GATEWAY
+<img src="https://i.imgur.com/HeUWoMT.png" width="550" height="400">
 
 ## Swagger UI - Book Service
 <img src="https://i.imgur.com/4KHBWwS.png" width="550" height="1500">
