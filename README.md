@@ -6,8 +6,14 @@
 
 <hr>
 
-# Docker Hub Repositories
-<img src="https://i.imgur.com/g3kSFb7.png" width="750" height="200">
+# Connecting Cambio Microservice and API Gateway to Zipkin
+<img src="https://i.imgur.com/SmBnsvi.png" width="450" height="200">
+
+# Zipkin Dash Traces
+<img src="https://i.imgur.com/ePOCqi2.png" width="450" height="200">
+
+# Zipkin Trace on Microservices on API Gateway
+<img src="https://i.imgur.com/kluBFQi.png" width="450" height="200">
 
 # Containers Docker Images
 <img src="https://i.imgur.com/eNC3JDJ.png" width="750" height="200">
