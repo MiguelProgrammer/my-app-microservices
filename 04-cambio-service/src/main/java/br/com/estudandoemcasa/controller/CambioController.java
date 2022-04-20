@@ -3,6 +3,8 @@ package br.com.estudandoemcasa.controller;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,6 +22,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 @RequestMapping("/cambio-service")
 public class CambioController {
 	
+	private Logger logger = LoggerFactory.getLogger(Cambio.class);
+	
 	@Autowired
 	private Environment enviroment;
 	
@@ -31,6 +35,8 @@ public class CambioController {
 	public Cambio getCambio(@PathVariable("amount") BigDecimal amount, 
 			@PathVariable("from") String from,
 			@PathVariable("to") String to) {
+		
+		logger.info("getCambio chamado com -> {}, {} and {}", amount, from, to);
 		
 		var cambio = cambioRepository.findByFromAndTo(from, to);
 		

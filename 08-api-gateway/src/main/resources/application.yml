@@ -4,6 +4,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+  
 spring:
   application:
     name: mg-api-gateway
@@ -27,6 +28,9 @@ spring:
         - Path=/v3/api-docs/**
         filters:
         - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
+    sleuth:
+      sampler:
+        probability: 1.0
           
           
           
