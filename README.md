@@ -6,8 +6,17 @@
 
 <hr>
 
+# Integrating Zipkin with RabbitMQ with Docker Compose
+<img src="https://i.imgur.com/LyXDjsa.png" width="550" height="200">
+
+# RabbitMQ User Guest
+<img src="https://i.imgur.com/Qn1dtzM.png" width="600" height="200">
+
+# Command docker container ls
+<img src="https://i.imgur.com/TOiShL5.png" width="600" height="200">
+
 # Connecting Cambio Microservice and API Gateway to Zipkin
-<img src="https://i.imgur.com/SmBnsvi.png" width="450" height="200">
+<img src="https://i.imgur.com/SmBnsvi.png" width="450" height="400">
 
 # Zipkin Dash Traces
 <img src="https://i.imgur.com/ePOCqi2.png" width="450" height="200">
