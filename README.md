@@ -1,4 +1,4 @@
-# 👨‍🏫 Application - MicroServices ![Profile View Counter](https://komarev.com/ghpvc/?username=MiguelProgrammer)
+# 👨‍🏫 Application - MicroServices ![Profile View Counter](https://komarev.com/ghpvc/?username=MiguelProgrammer) [![Continuous Integration With Github](https://github.com/MiguelProgrammer/my-app-microservices/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/MiguelProgrammer/my-app-microservices/actions/workflows/docker-publish.yml)
 <hr>
 
 ### Para visualização do dado semi-estruturado.Json, instalei um plugin no navegador, ele se encontra no github 
