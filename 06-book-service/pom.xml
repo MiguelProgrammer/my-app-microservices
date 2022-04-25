@@ -15,7 +15,7 @@
 	<name>06-book-service</name>
 	<description>Estudando Microsserviços</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>17</java.version>
 		<spring-cloud.version>2020.0.5</spring-cloud.version>
 	</properties>
 	<dependencies>
