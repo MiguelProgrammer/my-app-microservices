@@ -1637,3 +1637,87 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-04-25 10:57:25.367
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:17.298
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:17.299
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f180bef[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=569)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:17.329
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:17.752
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.660
+!MESSAGE Boot LS startup time from start to initialized: 4322ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.849
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JJNOxmsAisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.853
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.857
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.859
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.860
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.861
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JJNOxmsA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.877
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.888
+!MESSAGE buffering callback sts4.classpath.JJNOxmsA 07-naming-server false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.889
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.912
+!MESSAGE classpath=188 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.922
+!MESSAGE buffering callback sts4.classpath.JJNOxmsA 04-cambio-service false 188
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.924
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.935
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.949
+!MESSAGE buffering callback sts4.classpath.JJNOxmsA 04-mg-config-server false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:21.951
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:22.014
+!MESSAGE classpath=210 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:22.060
+!MESSAGE buffering callback sts4.classpath.JJNOxmsA 06-book-service false 210
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:22.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:22.097
+!MESSAGE classpath=188 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:22.133
+!MESSAGE buffering callback sts4.classpath.JJNOxmsA 08-api-gateway false 188
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:22.134
+!MESSAGE executing callback sts4.classpath.JJNOxmsA 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-25 11:13:23.562
+!MESSAGE executing callback sts4.classpath.JJNOxmsA SUCCESS [done]
