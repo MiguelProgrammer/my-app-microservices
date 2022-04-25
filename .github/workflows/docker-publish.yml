@@ -1,6 +1,9 @@
 name: Continuous Integration With Github
 
-on: [push]
+on:
+  push:
+    branches:
+      - microservices
     
 jobs:
   build:
